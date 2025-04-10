@@ -1,2 +1,2 @@
-# Calculator-Haider-Rathore
+# Calculator-Haider
 This is Streamlit Calculator developed by Haider
