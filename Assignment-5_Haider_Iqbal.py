@@ -53,7 +53,7 @@ with col6:
 with col7:
     st.button("6", on_click=update_display, args=(6,))
 with col8:
-    st.button("*", on_click=update_display, args=("*",))
+    st.button("*\u00A0", on_click=update_display, args=("*",))
 
 with col9:
     st.button("1", on_click=update_display, args=(1,))
@@ -62,7 +62,7 @@ with col10:
 with col11:
     st.button("3", on_click=update_display, args=(3,))
 with col12:
-    st.button("-", on_click=update_display, args=("-",))
+    st.button("-\u00A0", on_click=update_display, args=("-",))
 
 with col13:
     st.button("0", on_click=update_display, args=(0,))
@@ -71,7 +71,7 @@ with col14:
 with col15:
     st.button("C", on_click=clear_display)
 with col16:
-    st.button("+", on_click=update_display, args=("+",))
+    st.button("+\u00A0", on_click=update_display, args=("+",))
 
 st.markdown("###")
 st.button("=  Calculate", on_click=calculate_result)
